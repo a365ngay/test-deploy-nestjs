@@ -1,0 +1,5 @@
+<mj-section full-width="full-width" background-color="#F8F9FD">
+  <mj-column style="width: 200px">
+    <mj-image src="<%= logoUrl %>" width="200px" />
+  </mj-column>
+</mj-section>

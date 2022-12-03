@@ -1,0 +1,27 @@
+# We have 2 stage Test and Deploy
+stages:
+  - deploy
+  
+# Config cache
+cache:
+  paths:
+    - node_modules/
+    
+# Deploy job
+deploy:
+  image: node:latest
+  type: deploy
+  # Attach Deploy job to Deploy stage
+  stage: deploy
+  # Config to use our Runner with Executor Shell
+  tags:
+    - epicmed-be
+  script:
+    - xcopy * %PROJECT_DIR% /s /e /q /r /y 
+    - cd %PROJECT_DIR%
+    - call npm install --force
+    - call npm run win-build 
+    - call npm run win-migration
+    - echo "All done !!!"
+  only:
+    - epicMedical_dev

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TVF devs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+      body {
+        background-color: white;
+        padding: 1rem 3rem;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.5rem;
+      }
+
+      li,
+      p.justify {
+        font-size: 1.5rem;
+      }
+
+      p.item {
+        margin-left: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      p.justify {
+        text-align: justify;
+        margin-left: -18px;
+      }
+
+      p.justify:not(:last-of-type) {
+        margin-bottom: 1rem;
+      }
+
+      ol {
+        counter-reset: item;
+      }
+
+      ol > li {
+        counter-increment: item;
+      }
+
+      ol ol > li {
+        display: block;
+        margin-bottom: 1rem;
+        margin-left: 20px;
+        text-align: justify;
+      }
+
+      ol ol > li:before {
+        content: counters(item, '.') '. ';
+        margin-left: -20px;
+        font-weight: bold;
+      }
+
+      p.sublist-item {
+        margin-left: -20px;
+      }
+
+      ul > li {
+        list-style-type: disc;
+      }
+
+      td.alphabet {
+        vertical-align: top;
+        width: 25px;
+      }
+
+      p.underline {
+        text-decoration: underline;
+      }
+
+      p.justify.bold {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Techvify Never Die</h1>
+      <li>
+        <p class="item">REQUIREMENTS FOR USE OF THE SERVICE</p>
+        <ol>
+          <li>
+            Devices and Accounts. Use of the Service may require compatible devices, Internet access, and certain
+            software (fees may apply); may require periodic updates; and may be affected by the performance of these
+            factors. Diginex reserves the right to limit the number of accounts that may be created from a device and
+            the number of devices associated with an account. The latest version of required software may be required
+            for certain transactions or features. You agree that meeting these requirements is your responsibility.
+          </li>
+          <li>
+            Limitations on Use.  You agree to use the Service only for purposes permitted by this Agreement, and only to
+            the extent permitted by any applicable law, regulation, or generally accepted practice in the applicable
+            jurisdiction. If your use of the Service or other behavior intentionally or unintentionally threatens
+            Diginex's ability to provide the Service or other systems, Diginex shall be entitled to take all reasonable
+            steps to protect the Service and Diginex's systems, which may include suspension of your access to the
+            Service. Repeated violations of the limitations may result in termination of your account.
+          </li>
+          <li>
+            Availability of the Service. The Service, or any feature or part thereof, may not be available at all times,
+            at any time or in all countries and Diginex makes no representation that the Service, or any feature or part
+            thereof, is appropriate or available for use in any particular location. To the extent you choose to access
+            and use the Service, you do so at your own initiative and are responsible for compliance with any applicable
+            laws.
+          </li>
+          <li>
+            Changing the Service.  Diginex reserves the right at any time to modify this Agreement and to impose new or
+            additional terms or conditions on your use of the Service. In the event that Diginex does make material
+            adverse changes to the Service or terms of use, you will have the right to terminate this Agreement and your
+            account. Diginex shall not be liable to you for any modifications to the Service or terms of service made in
+            accordance with this Section.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p class="item">USE OF THE SERVICE</p>
+        <ol>
+          <li>
+            Login. As a registered user of the Service, you must establish an account. Don't reveal your account
+            information to anyone else. You are solely responsible for maintaining the confidentiality and security of
+            your account and for all activities that occur on or through your account, and you agree to immediately
+            notify Diginex of any security breach of your account. Provided we have exercised reasonable skill and due
+            care, Diginex shall not be responsible for any losses arising out of the unauthorized use of your account
+            resulting from you not following these rules. You agree to provide accurate and complete information when
+            you register with, the Service and you agree to update your service registration data (the "Date") to keep
+            it accurate and complete. Failure to provide accurate, current and complete Data may result in the
+            suspension and/or termination of your account. You agree that Diginex may store and use the Data you provide
+            for performing the Service.
+          </li>
+          <li>
+            No Conveyance. Nothing in this Agreement shall be construed to convey to you any interest, title, or license
+            in a registered ID, email address, domain name or similar resource used by you in connection with the
+            Service.
+          </li>
+          <li>
+            No Resale of Service. You agree that you will not reproduce, copy, duplicate, sell, resell, rent or trade
+            the Service (or any part thereof) for any purpose.
+          </li>
+          <li>
+            Backup. Diginex shall use reasonable skill and due care in providing the Service, but, TO THE GREATEST
+            EXTENT PERMISSIBLE BY APPLICABLE LAW, DIGINEX DOES NOT GUARANTEE OR WARRANT THAT ANY CONTENT YOU MAY STORE
+            OR ACCESS THROUGH THE SERVICE WILL NOT BE SUBJECT TO INADVERTENT DAMAGE, CORRUPTION, LOSS, OR REMOVAL IN
+            ACCORDANCE WITH THE TERMS OF THIS AGREEMENT, AND DIGINEX SHALL NOT BE RESPONSIBLE SHOULD SUCH DAMAGE,
+            CORRUPTION, LOSS, OR REMOVAL OCCUR. It is your responsibility to maintain appropriate alternate backup of
+            your information and data.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p class="item">Content and Your Conduct</p>
+        <ol>
+          <li>
+            Content. "Content" means any information that may be generated or encountered through use of the Service,
+            such as data files, device characteristics, written text, software, music, graphics, photographs, images,
+            sounds, videos, messages and any other like materials. You understand that all Content, whether publicly
+            posted or privately transmitted on the Service is the sole responsibility of the person from whom such
+            Content originated. This means that you, and not Diginex, are solely responsible for any Content you upload,
+            download, post, email, transmit, store or otherwise make available through your use of the Service. You
+            understand that by using the Service you may encounter Content that you may find offensive, indecent, or
+            objectionable, and that you may expose others to Content that they may find objectionable. Diginex does not
+            control the Content posted via the Service, nor does it guarantee the accuracy, integrity or quality of such
+            Content. You understand and agree that your use of the Service and any Content is solely at your own risk.
+          </li>
+          <li>
+            Your Conduct. You agree that you will NOT use the Service to:
+            <table>
+              <tr>
+                <td class="alphabet">a)</td>
+                <td>
+                  upload, download, post, email, transmit, store or otherwise make available any Content that is
+                  unlawful, harassing, threatening, harmful, tortious, defamatory, libelous, abusive, violent, obscene,
+                  vulgar, invasive of another’s privacy, hateful, racially or ethnically offensive, or otherwise
+                  objectionable;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">b)</td>
+                <td>
+                  stalk, harass, threaten or harm another;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">c)</td>
+                <td>
+                  pretend to be anyone, or any entity, you are not;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">d)</td>
+                <td>
+                  engage in any copyright infringement or other intellectual property infringement (including uploading
+                  any content to which you do not have the right to upload), or disclose any trade secret or
+                  confidential information in violation of a confidentiality, employment, or nondisclosure agreement;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">e)</td>
+                <td>
+                  post, send, transmit or otherwise make available any unsolicited or unauthorized email messages,
+                  advertising, promotional materials, junk mail, spam, or chain letters, including, without limitation,
+                  bulk commercial advertising and informational announcements;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">f)</td>
+                <td>
+                  upload, post, email, transmit, store or otherwise make available any material that contains viruses or
+                  any other computer code, files or programs designed to harm, interfere or limit the normal operation
+                  of the Service (or any part thereof), or any other computer software or hardware;
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">g)</td>
+                <td>
+                  interfere with or disrupt the Service (including accessing the Service through any automated means,
+                  like scripts or web crawlers), or any servers or networks connected to the Service, or any policies,
+                  requirements or regulations of networks connected to the Service (including any unauthorized access
+                  to, use or monitoring of data or traffic thereon);
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">h)</td>
+                <td>
+                  plan or engage in any deemed illegal or objectionable activity; and/or
+                </td>
+              </tr>
+              <tr>
+                <td class="alphabet">i)</td>
+                <td>
+                  gather and store personal information on any other users of the Service to be used in connection with
+                  any of the foregoing prohibited activities.
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            Removal of Content. You acknowledge that Diginex is not responsible or liable in any way for any Content
+            provided by others and has no duty to pre-screen such Content. However, Diginex reserves the right at all
+            times to determine whether Content is appropriate and in compliance with this Agreement, and may pre-screen,
+            move, refuse, and/or remove Content at any time, without prior notice and in its sole discretion, if such
+            Content is found to be in violation of this Agreement or is otherwise objectionable.
+          </li>
+          <li>
+            Back up Your Content. You are responsible for backing up, to your own computer or other device, any
+            important documents, images or other Content that you store or access via the Service. Diginex shall use
+            reasonable skill and due care in providing the Service, but Diginex does not guarantee or warrant that any
+            Content you may store or access through the Service will not be subject to inadvertent damage, corruption or
+            loss.
+          </li>
+          <li>
+            Access to Your account and Content. Diginex reserves the right to take steps Diginex believes are reasonably
+            necessary or appropriate to enforce and/or verify compliance with any part of this Agreement. You
+            acknowledge and agree that Diginex may, without liability to you, access, use, preserve and/or disclose your
+            account information and Content to law enforcement authorities, government officials, and/or a third party,
+            as Diginex believes is reasonably necessary or appropriate, if legally required to do so or if Diginex has a
+            good faith belief that such access, use, disclosure, or preservation is reasonably necessary to: (a) comply
+            with legal process or request; (b) enforce this Agreement, including investigation of any potential
+            violation thereof; (c) detect, prevent or otherwise address security, fraud or technical issues; or (d)
+            protect the rights, property or safety of Diginex, its users, a third party, or the public as required or
+            permitted by law.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p class="item">Software</p>
+        <ol>
+          <li>
+            Diginex's Proprietary Rights. You acknowledge and agree that Diginex and/or its licensors own all legal
+            right, title and interest in and to the Service, including but not limited to graphics, user interface, the
+            scripts and software used to implement the Service, and any software provided to you as a part of and/or in
+            connection with the Service (the "Software"), including any and all intellectual property rights that exist
+            therein, whether registered or not, and wherever in the world they may exist. You further agree that the
+            Service (including the Software, or any other part thereof) contains proprietary and confidential
+            information that is protected by applicable intellectual property and other laws, including but not limited
+            to copyright. You agree that you will not use such proprietary information or materials in any way
+            whatsoever except for use of the Service in compliance with this Agreement. No portion of the Service may be
+            reproduced in any form or by any means, except as expressly permitted in these terms.
+          </li>
+          <li>
+            License From Diginex. THE USE OF THE SOFTWARE OR ANY PART OF THE SERVICE, EXCEPT FOR USE OF THE SERVICE AS
+            PERMITTED IN THIS AGREEMENT, IS STRICTLY PROHIBITED AND INFRINGES ON THE INTELLECTUAL PROPERTY RIGHTS OF
+            OTHERS AND MAY SUBJECT YOU TO CIVIL AND CRIMINAL PENALTIES, INCLUDING POSSIBLE MONETARY DAMAGES, FOR
+            COPYRIGHT INFRINGEMENT.
+          </li>
+          <li>
+            Export Control. Use of the Service and Software, including transferring, posting, or uploading data,
+            software or other Content via the Service, may be subject to the export and import laws of the United States
+            and other countries. You agree to comply with all applicable export and import laws and regulations. In
+            particular, but without limitation, the Software may not be exported or re-exported (a) into any U.S.
+            embargoed countries or (b) to anyone on the U.S. Treasury Department's list of Specially Designated
+            Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List. By using the Software or
+            Service, you represent and warrant that you are not located in any such country or on any such list. You
+            also agree that you will not use the Software or Service for any purposes prohibited by United States law,
+            including, without limitation, the development, design, manufacture or production of missiles, nuclear,
+            chemical or biological weapons. You further agree not to upload to your account any data or software that
+            is: (a) subject to International Traffic in Arms Regulations; or (b) that cannot be exported without prior
+            written government authorization, including, but not limited to, certain types of encryption software and
+            source code, without first obtaining that authorization. This assurance and commitment shall survive
+            termination of this Agreement.
+          </li>
+          <li>
+            Updates. From time to time, Diginex may update the Software used by the Service. In order to continue your
+            use of the Service, such updates may be automatically downloaded and installed onto your device or computer.
+            These updates may include bug fixes, feature enhancements or improvements, or entirely new versions of the
+            Software.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p class="item">Termination</p>
+        <ol>
+          <li>
+            Voluntary Termination by You. You may delete your ID and/or stop using the Service at any time. If you
+            terminate your account and delete your ID, this action may be non-reversible. Termination of your account
+            shall not relieve you of any obligation to pay any accrued fees or charges.
+          </li>
+          <li>
+            Termination by Diginex. Diginex may at any time, under certain circumstances and without prior notice,
+            immediately terminate or suspend all or a portion of your account and/or access to the Service. Cause for
+            such termination shall include: (a) violations of this Agreement or any other policies or guidelines that
+            are referenced herein and/or posted on the Service; (b) a request by you to cancel or terminate your
+            account; (c) a request and/or order from law enforcement, a judicial body, or other government agency; (d)
+            where provision of the Service to you is or may become unlawful; (e) unexpected technical or security issues
+            or problems; (f) your participation in fraudulent or illegal activities; or (g) failure to pay any fees owed
+            by you in relation to the Service, provided that in the case of non-material breach, Diginex will be
+            permitted to terminate only after giving you 50 days' notice and only if you have not cured the breach
+            within such 50-day period. Any such termination or suspension shall be made by Diginex in its sole
+            discretion and Diginex will not be responsible to you or any third party for any damages that may result or
+            arise out of such termination or suspension of your account and/or access to the Service. In addition,
+            Diginex may terminate your account upon 7 days' prior notice via email to the address associated with your
+            account if (a) your account has been inactive for six (6) monthes; or (b) there is a general discontinuance
+            of the Service or any part thereof. Notice of general discontinuance of service will be provided as set
+            forth herein, unless it would not be reasonable to do so due to circumstances arising from legal,
+            regulatory, or governmental action; to address user security, user privacy, or technical integrity concerns;
+            to avoid service disruptions to other users; or due to a natural disaster, a catastrophic event, war, or
+            other similar occurrence outside of Diginex's reasonable control. Diginex shall not be liable to you for any
+            modifications to the Service or terms of service in accordance with this Section.
+          </li>
+          <li>
+            Effects of Termination. Upon termination of your account you may lose all access to the Service and any
+            portions thereof, including, but not limited to, your account and Content. In addition, Diginex will delete
+            information and data stored in or as a part of your account(s). Any individual components of the Service
+            that you may have used subject to separate software license agreements will also be terminated in accordance
+            with those license agreements.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p class="item">DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</p>
+        <p class="justify">
+          SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, AS SUCH, TO THE EXTENT SUCH EXCLUSIONS
+          ARE SPECIFICALLY PROHIBITED BY APPLICABLE LAW, SOME OF THE EXCLUSIONS SET FORTH BELOW MAY NOT APPLY TO YOU.
+        </p>
+        <p class="justify">
+          DIGINEX SHALL USE REASONABLE SKILL AND DUE CARE IN PROVIDING THE SERVICE. THE FOLLOWING DISCLAIMERS ARE
+          SUBJECT TO THIS EXPRESS WARRANTY.
+        </p>
+        <p class="justify underline">
+          DIGINEX DOES NOT GUARANTEE, REPRESENT, OR WARRANT THAT YOUR USE OF THE SERVICE WILL BE UNINTERRUPTED OR
+          ERROR-FREE, AND YOU AGREE THAT FROM TIME TO TIME DIGINEX MAY REMOVE THE SERVICE FOR INDEFINITE PERIODS OF
+          TIME, OR CANCEL THE SERVICE IN ACCORDANCE WITH THE TERMS OF THIS AGREEMENT.
+        </p>
+        <p class="justify">
+          YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS.
+          DIGINEX AND ITS AFFILIATES, SUBSIDIARIES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PARTNERS AND LICENSORS
+          EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+          IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN PARTICULAR,
+          DIGINEX AND ITS AFFILIATES, SUBSIDIARIES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PARTNERS AND LICENSORS MAKE
+          NO WARRANTY THAT (I) THE SERVICE WILL MEET YOUR REQUIREMENTS; (II) YOUR USE OF THE SERVICE WILL BE TIMELY,
+          UNINTERRUPTED, SECURE OR ERROR-FREE; (III) ANY INFORMATION OBTAINED BY YOU AS A RESULT OF THE SERVICE WILL BE
+          ACCURATE OR RELIABLE; AND (IV) ANY DEFECTS OR ERRORS IN THE SOFTWARE PROVIDED TO YOU AS PART OF THE SERVICE
+          WILL BE CORRECTED.
+        </p>
+        <p class="justify underline">
+          DIGINEX DOES NOT REPRESENT OR GUARANTEE THAT THE SERVICE WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES,
+          INTERFERENCE, HACKING, OR OTHER SECURITY INTRUSION, AND DIGINEX DISCLAIMS ANY LIABILITY RELATING THERETO.
+        </p>
+        <p class="justify">
+          ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SERVICE IS ACCESSED AT YOUR OWN
+          DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR DEVICE, COMPUTER, OR LOSS OF
+          DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL. YOU FURTHER ACKNOWLEDGE THAT THE SERVICE IS NOT
+          INTENDED OR SUITABLE FOR USE IN SITUATIONS OR ENVIRONMENTS WHERE THE FAILURE OR TIME DELAYS OF, OR ERRORS OR
+          INACCURACIES IN, THE CONTENT, DATA OR INFORMATION PROVIDED BY THE SERVICE COULD LEAD TO DEATH, PERSONAL
+          INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
+        </p>
+        <p class="justify bold">LIMITATION OF LIABILITY</p>
+        <p class="justify">
+          SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY BY SERVICE PROVIDERS. TO THE EXTENT
+          SUCH EXCLUSIONS OR LIMITATIONS ARE SPECIFICALLY PROHIBITED BY APPLICABLE LAW, SOME OF THE EXCLUSIONS OR
+          LIMITATIONS SET FORTH BELOW MAY NOT APPLY TO YOU.
+        </p>
+        <p class="justify">
+          DIGINEX SHALL USE REASONABLE SKILL AND DUE CARE IN PROVIDING THE SERVICE. THE FOLLOWING LIMITATIONS DO NOT
+          APPLY IN RESPECT OF LOSS RESULTING FROM (A) DIGINEX’S FAILURE TO USE REASONABLE SKILL AND DUE CARE; (B)
+          DIGINEX’S GROSS NEGLIGENCE, WILFUL MISCONDUCT OR FRAUD; OR (C) DEATH OR PERSONAL INJURY.
+        </p>
+        <p class="justify">
+          YOU EXPRESSLY UNDERSTAND AND AGREE THAT DIGINEX AND ITS AFFILIATES, SUBSIDIARIES, OFFICERS, DIRECTORS,
+          EMPLOYEES, AGENTS, PARTNERS AND LICENSORS SHALL NOT BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+          SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS,
+          GOODWILL, USE, DATA, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR OTHER INTANGIBLE LOSSES (EVEN IF
+          DIGINEX HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM: (I) THE USE OR INABILITY TO USE
+          THE SERVICE (II) ANY CHANGES MADE TO THE SERVICE OR ANY TEMPORARY OR PERMANENT CESSATION OF THE SERVICE OR ANY
+          PART THEREOF; (III) THE UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (IV) THE DELETION
+          OF, CORRUPTION OF, OR FAILURE TO STORE AND/OR SEND OR RECEIVE YOUR TRANSMISSIONS OR DATA ON OR THROUGH THE
+          SERVICE; (V) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE; AND (VI) ANY OTHER MATTER RELATING TO
+          THE SERVICE.
+        </p>
+        <p class="justify bold">INDEMNIFICATION</p>
+        <p class="justify">
+          You agree to defend, indemnify and hold Diginex, its affiliates, subsidiaries, directors, officers, employees,
+          agents, partners, contractors, and licensors harmless from any claim or demand, including reasonable
+          attorneys' fees, made by a third party, relating to or arising from: (a) any Content you submit, post,
+          transmit, or otherwise make available through the Service; (b) your use of the Service; (c) any violation by
+          you of this Agreement; (d) any action taken by Diginex as part of its investigation of a suspected violation
+          of this Agreement or as a result of its finding or decision that a violation of this Agreement has occurred;
+          or (e) your violation of any rights of another. This means that you cannot sue Diginex, its affiliates,
+          subsidiaries, directors, officers, employees, agents, partners, contractors, and licensors as a result of its
+          decision to remove or refuse to process any information or Content, to warn you, to suspend or terminate your
+          access to the Service, or to take any other action during the investigation of a suspected violation or as a
+          result of Diginex's conclusion that a violation of this Agreement has occurred. This waiver and indemnity
+          provision applies to all violations described in or contemplated by this Agreement. This obligation shall
+          survive the termination or expiration of this Agreement and/or your use of the Service. You acknowledge that
+          you are responsible for all use of the Service using your account, and that this Agreement applies to any and
+          all usage of your account. You agree to comply with this Agreement and to defend, indemnify and hold harmless
+          Diginex from and against any and all claims and demands arising from usage of your account, whether or not
+          such usage is expressly authorized by you.
+        </p>
+      </li>
+      <li>
+        <p class="item">Governing Law</p>
+        <p class="justify">
+          This Agreement and the relationship between you and Diginex shall be governed by the laws of the Hong Kong,
+          excluding its conflicts of law provisions. Any dispute, controversy, difference or claim arising out of or
+          relating to this Agreement, including the existence, validity, interpretation, performance, breach or
+          termination thereof or any dispute regarding non-contractual obligations arising out of or relating to them or
+          it (each a "<span style="font-weight:bold;">Dispute</span>") shall be referred to and finally resolved by
+          arbitration administered by the Hong Kong International Arbitration Centre (the "<span
+            style="font-weight:bold;"
+            >HKIAC</span
+          >") under the HKIAC Administered Arbitration Rules in force when the Notice of Arbitration is submitted and in
+          accordance with the following additional terms and conditions:
+        </p>
+        <ol>
+          <li>
+            The law of this arbitration clause shall be Hong Kong law.
+          </li>
+          <li>
+            The seat of arbitration shall be Hong Kong.
+          </li>
+          <li>
+            The number of arbitrators shall be one, who shall be appointed by the chairman of the HKIAC.
+          </li>
+          <li>The arbitration proceedings shall be conducted in the English language.</li>
+        </ol>
+        <p class="justify">
+          Specifically excluded from application to this Agreement is that law known as the United Nations Convention on
+          the International Sale of Goods.
+        </p>
+      </li>
+      <li>
+        <p class="item">Entire Agreement</p>
+        <p class="justify">
+          This Agreement constitutes the entire agreement between you and Diginex, governs your use of the Service and
+          completely replaces any prior agreements between you and Diginex in relation to the Service. You may also be
+          subject to additional terms and conditions that may apply when you use affiliate services, third-party
+          content, or third-party software. If any part of this Agreement is held invalid or unenforceable, that portion
+          shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original
+          intentions of the parties, and the remaining portions shall remain in full force and effect. The failure of
+          Diginex to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such
+          right or provision. You agree that, except as otherwise expressly provided in this Agreement, there shall be
+          no third-party beneficiaries to this agreement.
+        </p>
+      </li>
+    </ol>
+  </body>
+</html>

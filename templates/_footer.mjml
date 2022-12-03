@@ -1,0 +1,25 @@
+<mj-section>
+  <mj-column width="1200px">
+    <mj-divider border-width="1px" border-color="lightgrey" />
+  </mj-column>
+</mj-section>
+
+<mj-section>
+  <mj-column width="1200px">
+    <mj-text align="center" css-class="safer-link safer-text">
+      <p>
+        This is a computer-generated message. Please do not reply to this email.
+      </p>
+      <p>
+        Copyright &copy; 2022 Epic Medical Pte Ltd. All rights reserved.
+      </p>
+      <p>
+        <a href="<%= terms_condition_url %>" target="_blank">TERMS OF USE</a
+        >&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="<%= private_policy_url %>" target="_blank">PRIVACY POLICY</a
+        >&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="<%= contact_us_url %>" target="_blank">CONTACT US</a>
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

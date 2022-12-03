@@ -1,0 +1,14 @@
+<mj-head>
+  <mj-style inline="inline">
+    h1 { text-transform: uppercase; } .safer-font * { font-family: "Montserrat", sans-serif; line-height: 1.5em; }
+    .safer-blue { color: #203665; } .safer-font h1 { color: #203665; text-transform: uppercase; text-align: center;
+    font-size: 36px; font-weight: normal; } .safer-link a { color: #203665; } .safer-button td[role=presentation] {
+    border-radius: 20px !important; background-color: #203665 !important; } .safer-button a { background: transparent
+    !important; text-transform: uppercase !important; } .safer-table-header { color: #203665; text-align: right;
+    padding-right: 3em; min-width: 100px; vertical-align: top; padding-top: 1em; padding-bottom: 1em; }
+    .safer-table-right { padding-top: 1em; padding-bottom: 1em; } .safer-upload-required { color: #4c4c4c; text-align:
+    center; font-size: 18px; } .safer-section-table-left { padding-right: 1em; text-align: left; }
+    .safer-section-table-right { padding-left: 3em; } h1.none { text-transform: none; } pre.safer-pre { white-space:
+    pre-wrap; text-align: justify; font-family: "Montserrat", sans-serif; }
+  </mj-style>
+</mj-head>

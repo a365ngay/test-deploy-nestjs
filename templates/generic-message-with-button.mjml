@@ -1,0 +1,27 @@
+<mjml>
+  <mj-include path="./_mj-head.mjml" />
+  <mj-body background-color="white" width="1200px">
+    <mj-section css-class="header-placeholder"></mj-section>
+
+    <mj-section padding="0">
+      <mj-column width="1200px" padding="0">
+        <mj-text css-class="safer-font" padding="0 25px">
+          <h1 style="margin: 0.5em;"><%= title %></h1>
+        </mj-text>
+        <mj-text css-class="safer-font" padding="0 25px">
+          <%= message %>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column width="1200px" padding="0">
+        <mj-button align="center" href="<%= buttonHref %>" css-class="safer-button">
+          <%= buttonLabel %>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="footer-placeholder"></mj-section>
+  </mj-body>
+</mjml>
